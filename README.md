@@ -14,22 +14,3 @@ This R project analyzes synthetic student performance data to identify patterns 
 ├── summary_stats.csv # Generated summary statistics
 └── visualizations/ # Generated plots and charts
 
-## Installation
-
-### Prerequisites
-- R (version 4.0 or higher)
-- RStudio or Posit Cloud (recommended)
-
-### Required Packages
-Run the following code in R to install all required packages:
-
-```r
-install.packages(c(
-  "tidyverse",
-  "dplyr",
-  "ggplot2",
-  "knitr",
-  "rmarkdown",
-  "corrplot",
-  "caret"
-))
